@@ -1,116 +1,113 @@
 @font-face {
-    font-family: "Lato";
+    font-family: 'Lato';
     src: url(../fonts/Lato-Regular.ttf);
 }
 
 @font-face {
-    font-family: "Merriweather";
+    font-family: 'Merriweather';
     src: url(../fonts/Merriweather-Regular.ttf);
 }
 
-* {
+*{
     box-sizing: border-box;
 }
 
-p {
-    font-family: "Merriweather";
+p{
+    font-family: 'Merriweather';
     font-size: 1.1em;
 }
 
-h2 {
-    font-family: "Merriweather";
-    font-size: 3em;
+h2{
+    font-family: 'Merriweather';
+    font-size: 3em
 }
 
-li {
+li{
     list-style: none;
 }
 
-a {
+a{
     text-decoration: none;
     color: black;
 }
 
-body {}
+body{
+}
 
-img {
+img{
     width: 10em;
 }
 
-header ul {
+header ul{
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
     gap: 2em;
     width: 97vw;
     margin-top: 1em;
-    font-family: "Lato";
+    font-family: 'Lato';
 }
 
-[class^="section-"] {
+
+[class^="section-"]{
     width: 90vw;
     margin-top: 5em;
     margin: 5em 5em;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
-.section-1 .desc,
-.section-2 .desc,
-.section-3 .desc {
+.section-1{
+    justify-content: space-between;
+}
+.section-1 .desc, .section-2 .desc, .section-3 .desc {
     width: 30em;
 }
 
-[class^="section-"] .desc p {
+[class^="section-"]  .desc p{
     padding-bottom: 1em;
     line-height: 2em;
 }
 
-[class^="section-"] .img {
+[class^="section-"]  .img{
     width: 25em;
 }
 
-[class^="section-"] img {
+[class^="section-"]  img{
     width: 25em;
 }
 
-[class^="section-"] a {
+[class^="section-"]  a{
     margin-right: 5px;
 }
 
-.section-2 {
+.section-2{
     flex-direction: row-reverse;
 }
 
-.section-4,
-.section-5,
-.section-6 {
+.section-4, .section-5, .section-6{
     text-align: center;
     align-items: center;
     justify-content: center;
 }
 
-.section-4 .desc,
-.section-5 .desc,
-.section-6 .desc {
+.section-4 .desc, .section-5 .desc, .section-6 .desc{
     flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section-4 .desc p,
-.section-5 .desc p {
+.section-4 .desc p,.section-5 .desc p{
     width: 45em;
     font-size: 1.5em;
 }
 
-.section-4 img:hover,
-.examples img:hover {
-    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+.section-4 img:hover, .examples img:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
     transition: 0.2s;
     position: relative;
     z-index: 1;
@@ -124,41 +121,41 @@ header ul {
     gap: 2em;
 }
 
-.examples img {
+.examples img{
     width: 30vw;
 }
 
-.section-6 {
+.section-6{
     flex-direction: column;
 }
 
-.section-6 .desc p {
+.section-6 .desc p{
     width: 36em;
 }
 
-h3 {
+h3{
     font-size: 5em;
-    font-family: "Merriweather";
+    font-family: 'Merriweather';
 }
 
-.section-membership {
+.section-membership{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgba(85, 172, 238, 0.1);
+    background-color: rgba(85, 172, 238, .1);
     width: 25vw;
 }
 
-.section-membership h2 {
+.section-membership h2{
     font-size: 1.5em;
 }
 
-.section-membership p {
+.section-membership p{
     color: gray;
 }
 
-.section-membership ul {
+.section-membership ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -167,51 +164,51 @@ h3 {
     padding: 0;
 }
 
-.section-membership .button {
+.section-membership .button{
     margin-top: 0.5em;
     margin-bottom: 1.5em;
 }
 
-.section-membership ul li {
-    font-family: "Merriweather";
+.section-membership ul li{
+    font-family: 'Merriweather';
     padding-bottom: 0.25em;
     font-weight: 500;
 }
 
-footer {
-    display: flex;
+footer{
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: auto;
 }
 
-footer p {
+footer p{
     font-size: 1.5em;
     color: #7e7e7e;
 }
 
-footer a {
+footer a{
     font-size: 1.5em;
 }
 
-footer p a:nth-of-type(1) span {
-    color: #3b5998;
+footer p a:nth-of-type(2) span{
+    color: #FCAF45;
 }
 
-footer p a:nth-of-type(2) span {
-    color: #fcaf45;
+footer p a:nth-of-type(1) span{
+    color: #3B5998;
 }
 
-footer p a:nth-of-type(3) span {
-    color: #55acee;
+footer p a:nth-of-type(3) span{
+    color: #55ACEE;
 }
 
-footer p a:nth-of-type(4) span {
-    color: #c4302b;
+footer p a:nth-of-type(4) span{
+    color: #C4302B;
 }
 
-.button:nth-of-type(1) {
+.button:nth-of-type(1){
     background: #000000;
     padding: 0.7em 1em;
     text-align: center;
@@ -221,7 +218,7 @@ footer p a:nth-of-type(4) span {
     font-size: 1.5em;
 }
 
-.button:nth-of-type(2) {
+.button:nth-of-type(2){
     background: white;
     padding: 0.7em 1em;
     text-align: center;
@@ -232,8 +229,8 @@ footer p a:nth-of-type(4) span {
     font-size: 1.5em;
 }
 
-.section-membership .button {
-    background: #55acee;
+.section-membership .button{
+    background: #55ACEE;
     padding: 0.7em 1em;
     text-align: center;
     border-radius: 15px;
@@ -241,3 +238,4 @@ footer p a:nth-of-type(4) span {
     line-height: 25px;
     font-size: 1.5em;
 }
+
