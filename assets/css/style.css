@@ -60,11 +60,18 @@ header ul{
     flex-direction: row;
 }
 
+<<<<<<< HEAD
 .section-1{
     justify-content: space-between;
 }
 .section-1 .desc, .section-2 .desc, .section-3 .desc {
     width: 30em;
+=======
+.section-1 .desc,
+.section-2 .desc,
+.section-3 .desc {
+    width: 28em;
+>>>>>>> a359559f1a84eaa74f553fd80ead7d9ca9caba45
 }
 
 [class^="section-"]  .desc p{
@@ -113,12 +120,15 @@ header ul{
     z-index: 1;
 }
 
+.section-4 img{
+    width: 26vw;
+}
 .examples {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 3vw;
 }
 
 .examples img{
