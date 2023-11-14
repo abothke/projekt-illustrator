@@ -61,7 +61,7 @@ header ul {
 .section-1 .desc,
 .section-2 .desc,
 .section-3 .desc {
-    width: 30em;
+    width: 28em;
 }
 
 [class^="section-"] .desc p {
